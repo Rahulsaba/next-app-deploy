@@ -11,7 +11,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning={true}>
       <body className="min-h-screen  ">
         <Nav />
         <div className='flex items-center justify-center p-24'>

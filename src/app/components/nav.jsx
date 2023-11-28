@@ -12,7 +12,8 @@ export default function Nav() {
                         Next.js Authentication
                     </a>
                 </div>
-                <Link href="/dashboard">Dashboard</Link>
+                <Link href="/dashboard" className="px-5">Dashboard</Link>
+                <Link href="/getuser">User</Link>
                 <Link href="/login" className="px-5">Login</Link>
             </nav>
         </header>
